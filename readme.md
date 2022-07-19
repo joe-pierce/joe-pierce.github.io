@@ -59,7 +59,7 @@ I am a Senior Hydroinformatics Developer within the Hydroinformatics discipline 
 Combining my background in hydraulic modelling, hydrology and GIS with a passion for innovation 
 and technology, my role focusses on the application of digital solutions to a wide range 
 of challenges within the Water and Flood Risk industry. 
-I have worked in consultancy for over 5 years, typically working with public sector clients 
+I have worked in consultancy for 6 years, typically working with public sector clients 
 such as the Environment Agency, Highways England and Local Authorities. Throughout 2020, 
 I was seconded part time into Natural Resources Wales in their Flood Risk Analysis team, 
 gaining client-side experience in hydraulic modelling and hydrology.
