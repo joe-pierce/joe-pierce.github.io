@@ -1,6 +1,6 @@
 <!-- title: Joe Pierce CV -->
 
-### **Employment Details**
+## **Employment Details**
 
 | Date | Company | Role |
 | --- | --- | --- |
@@ -41,7 +41,7 @@
 
 
 
-### **Profile**
+## **Profile**
 
 >I am a Senior Hydroinformatics Developer within the Hydroinformatics discipline at Jacobs. 
 >Combining my background in hydraulic modelling, hydrology and GIS with a passion for innovation 
@@ -56,7 +56,7 @@
 
 
 
-### **Selected Professional Project Experience**
+## **Selected Professional Project Experience**
 
 > **National Flood Risk Assessment 2 (NaFRA2)**
 >
