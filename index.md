@@ -69,8 +69,6 @@ problems and have promoted technological upskilling within my organisations.
 
 <div style="height:5px"></div>
 
-
- 
 ### **Selected Professional Project Experience**
 
 <div style="height:5px"></div>
@@ -215,7 +213,6 @@ problems and have promoted technological upskilling within my organisations.
 > <div style="height:5px"></div>
 
 &nbsp;
-
 
 </div>
 
