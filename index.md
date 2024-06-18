@@ -1,20 +1,7 @@
 <!-- title: Joe Pierce CV -->
 
-
-
-# **Joe Pierce** CGeog, MEnv BSc
-## Principal Hydroinformatics Developer
-joe.pierce@jacobs.com
-
-0779 559 4011
-
----
-
-
-
-
-
 ### **Employment Details**
+
 | Date | Company | Role |
 | --- | --- | --- |
 | Sept 2023 - present | Jacobs | Principal Hydroinformatics Developer |
@@ -214,6 +201,5 @@ this package of work to good client satisfaction and within the agreed budget.
 
 &nbsp;
 
-</div
 
 
