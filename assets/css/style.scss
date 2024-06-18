@@ -13,7 +13,7 @@
     color: #505050;
 }
 .main-content blockquote:first-of-type{
-    border-left-color: #3589f7b5;
+    border-left-color: #155a95;
 }
 table {
     width: 100%;
@@ -34,10 +34,10 @@ td {
 }
 
 /* Optional: Add borders to table and table cells for better visibility */
-table, th, td {
+th, td {
     border: 1px solid #ddd;
 }
 h3:nth-of-type(1),
 h3:nth-of-type(2) {
-    color: #3589f7b5;
+    color: #155a95;
 }
