@@ -15,4 +15,23 @@
 .main-content blockquote:first-of-type{
     border-left-color: #3589f7b5;
 }
-.main-content h3:first
+table {
+    width: 100%;
+    border-collapse: collapse; /* This helps remove gaps between table cells */
+}
+
+/* Left align the table headers */
+th {
+    text-align: left;
+    padding: 8px; /* Add some padding for better readability */
+}
+
+/* Add some padding to table cells */
+td {
+    padding: 8px;
+}
+
+/* Optional: Add borders to table and table cells for better visibility */
+table, th, td {
+    border: 1px solid #ddd;
+}
