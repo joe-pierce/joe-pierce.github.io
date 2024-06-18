@@ -14,7 +14,7 @@ joe.pierce@jacobs.com
 
 
 
-### &nbsp;&nbsp;**Employment Details**
+### **Employment Details**
 | Date | Company | Role |
 | --- | --- | --- |
 | Sept 2023 - present | Jacobs | Principal Hydroinformatics Developer |
@@ -30,18 +30,18 @@ joe.pierce@jacobs.com
 | Education |
 |---|
 | **MEnv BSc (Hons) first class, Environmental Science (International)**, University of Leeds and McMaster University, Canada (third year of study), 2011-2015 |
->
+
 
 
 | Professional Membership |
 |---|
 |Chartered, *Royal Geographical Society* |
 
->
 
 
 
-| <h3>**Technical Skills**</h3| | <h3>**Soft Skills**</h3| |
+
+| **Technical Skills**| | **Soft Skills**| |
 | ---: | :--- | ---: | :--- |
 | Python (geospatial, scientific/numerical, automation) | ![](5.png) |Problem solving and analytical skills | ![](5.png) |
 | Database development (PostgreSQL, SQLAlchemy) | ![](4.png) | Innovative | ![](5.png) |
@@ -131,7 +131,7 @@ The project can be [found on GitHub here](https://github.com/People-Places-Solut
 **OxCam Economic Investment Study**
 
 **Client:** The Environment Agency
->
+
 **Date:** Jan 2021 – Jan 2022
 
 I worked a software developer on a pilot project for the Environment Agency looking at 
@@ -150,9 +150,9 @@ with real time economic analysis.
 **Flood Risk Advisor Secondment**
 
 **Client:** Natural Resources Wales (NRW)
->
+
 **Date:** Jan 2020 – Dec 2020
->
+
 In January 2020 I began a part-time (3 days per week) secondment at NRW, originally for 
 3 months although later extended for a further 9 months. My role was to support the Flood 
 Risk Analysis team with their work including: reviewing hydraulic models submitted as 
@@ -161,7 +161,7 @@ of flood risk to communities, and undertaking hydrological assessments of catchm
 assess their response to extreme rainfall. I also helped the team with general GIS and 
 automation, for example writing a script to extract, clean and organise GIS data from 
 their latest national flood risk dataset. 
->
+
 Until late March 2020 I worked from their Buckley Office in North Wales and undertook 
 site visits to some of the rivers I was working on in order to take survey spot levels 
 and to get a better understanding of the channel conditions. As well as gaining experience 
@@ -173,7 +173,7 @@ unique hydrologically and socially.
 &nbsp;
 
 
->
+
 **SIMBA – Rapid river & surface water model building tool**
 
 **Client:** Internal (AECOM)
@@ -214,6 +214,6 @@ this package of work to good client satisfaction and within the agreed budget.
 
 &nbsp;
 
-</div>
+</div
 
 
