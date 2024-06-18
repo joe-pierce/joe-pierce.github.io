@@ -13,7 +13,6 @@
 | April 2016 – May 2016 | EducationApps Ltd | Maths and Chemistry Tutor |
 | Nov 2015 – April 2016 | Skiworld Ltd | Chalet Host |
 
-&nbsp;
 
 #### Education
 
@@ -24,8 +23,6 @@
 Chartered, *Royal Geographical Society*
 
 
-
-&nbsp;
 
 | **Technical Skills**| | **Soft Skills**| |
 | ---: | :--- | ---: | :--- |
@@ -38,7 +35,7 @@ Chartered, *Royal Geographical Society*
 | Image Processing | ![](3.png) | Flexibility | ![](4.png) |
 | HTML, CSS, Markdown, RST | ![](2.png) | Continuous development | ![](5.png) |
 
-&nbsp;
+
 
 ### **Profile**
 
