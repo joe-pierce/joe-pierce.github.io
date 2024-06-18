@@ -2,8 +2,8 @@
 <div class="side-column">&nbsp;</div>
 <div class="main-column">
 
-# **Joe Pierce** MEnv BSc, FRGS
-## Senior Hydroinformatics Developer
+# **Joe Pierce** CGeog, MEnv BSc
+## Principal Hydroinformatics Developer
 joe.pierce@jacobs.com
 
 0779 559 4011
@@ -17,7 +17,8 @@ joe.pierce@jacobs.com
 > ### &nbsp;&nbsp;**Employment Details**
 > | Date | Company | Role |
 > | --- | --- | --- |
-> | Jan 2021 - present | Jacobs | Senior Hydroinformatics Developer |
+> | Sept 2023 - present | Jacobs | Principal Hydroinformatics Developer |
+> | Jan 2021 - Sept 2023 | Jacobs | Senior Hydroinformatics Developer |
 > | Jan 2020 - Dec 2020 | Natural Resources Wales | Flood Risk Advisor (secondment, part-time)  |
 > | Aug 2016 – Dec 2020 | AECOM | Flood Risk Consultant |
 > | Summer 2016 & 2013 | Maestro Tour Management | Tour Coordinator for National Youth Orchestra of the USA |
@@ -34,7 +35,7 @@ joe.pierce@jacobs.com
 > 
 > | Professional Membership |
 > |---|
-> |Fellow, *Royal Geographical Society* |
+> |Chartered, *Royal Geographical Society* |
 > 
 ><div style="height:5px"></div>
 
@@ -42,13 +43,13 @@ joe.pierce@jacobs.com
 
 | <h3>**Technical Skills**</h3> | | <h3>**Soft Skills**</h3> | |
 | ---: | :--- | ---: | :--- |
-| Python (geoprocessing, data analysis, automation) | ![](5.png) |Problem solving and analytical skills | ![](5.png) |
+| Python (geospatial, scientific/numerical, automation) | ![](5.png) |Problem solving and analytical skills | ![](5.png) |
 | Database development (PostgreSQL, SQLAlchemy) | ![](4.png) | Innovative | ![](5.png) |
-| Software development (DevOps, git, AWS, design principles, unit testing) | ![](3.png)  | Verbal and written communication | ![](4.png) |
+| Software development (DevOps, git, AWS, design principles, unit testing) | ![](4.png)  | Verbal and written communication | ![](4.png) |
 | GIS (ArcGIS, QGIS, MapInfo) | ![](5.png) | Leadership & Mentoring | ![](3.png) |
 | Hydraulic Modelling (Flood Modeller, TUFLOW, HECRAS) | ![](5.png) | Enthusiastic | ![](4.png) |
 | Hydrological Analysis (WINFAP-FEH, ReFH2) | ![](4.png) | Programme & budget management | ![](3.png) |
-| Image Processing | ![](4.png) | Flexibility | ![](4.png) |
+| Image Processing | ![](3.png) | Flexibility | ![](4.png) |
 | HTML, CSS, Markdown, RST | ![](2.png) | Continuous development | ![](5.png) |
 
 <div style="height:5px"></div>
