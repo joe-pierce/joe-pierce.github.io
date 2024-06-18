@@ -1,6 +1,6 @@
 <!-- title: Joe Pierce CV -->
 
-## **Employment Details**
+### **Employment Details**
 
 | Date | Company | Role |
 | --- | --- | --- |
@@ -12,13 +12,13 @@
 | April 2016 – May 2016 | EducationApps Ltd | Maths and Chemistry Tutor |
 | Nov 2015 – April 2016 | Skiworld Ltd | Chalet Host |
 
-
+&nbsp;
 
 | Education |
 |---|
 | **MEnv BSc (Hons) first class, Environmental Science (International)**, University of Leeds and McMaster University, Canada (third year of study), 2011-2015 |
 
-
+&nbsp;
 
 | Professional Membership |
 |---|
@@ -26,7 +26,7 @@
 
 
 
-
+&nbsp;
 
 | **Technical Skills**| | **Soft Skills**| |
 | ---: | :--- | ---: | :--- |
@@ -39,9 +39,9 @@
 | Image Processing | ![](3.png) | Flexibility | ![](4.png) |
 | HTML, CSS, Markdown, RST | ![](2.png) | Continuous development | ![](5.png) |
 
+&nbsp;
 
-
-## **Profile**
+### **Profile**
 
 >I am a Senior Hydroinformatics Developer within the Hydroinformatics discipline at Jacobs. 
 >Combining my background in hydraulic modelling, hydrology and GIS with a passion for innovation 
@@ -56,7 +56,7 @@
 
 
 
-## **Selected Professional Project Experience**
+### **Selected Professional Project Experience**
 
 > **National Flood Risk Assessment 2 (NaFRA2)**
 >

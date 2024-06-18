@@ -18,6 +18,8 @@
 table {
     width: 100%;
     border-collapse: collapse; /* This helps remove gaps between table cells */
+    font-size: 0.8rem;
+    color: #505050;
 }
 
 /* Left align the table headers */
@@ -34,4 +36,8 @@ td {
 /* Optional: Add borders to table and table cells for better visibility */
 table, th, td {
     border: 1px solid #ddd;
+}
+h3:nth-of-type(1),
+h3:nth-of-type(2) {
+    color: #3589f7b5;
 }
