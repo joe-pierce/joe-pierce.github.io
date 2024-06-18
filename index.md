@@ -1,4 +1,5 @@
 <!-- title: Joe Pierce CV -->
+joe_pierce_123@hotmail.com | 07795594011
 
 ### **Employment Details**
 
@@ -14,15 +15,13 @@
 
 &nbsp;
 
-| Education |
-|---|
-| **MEnv BSc (Hons) first class, Environmental Science (International)**, University of Leeds and McMaster University, Canada (third year of study), 2011-2015 |
+#### Education
 
-&nbsp;
+**MEnv BSc (Hons) first class, Environmental Science (International)**, University of Leeds and McMaster University, Canada (third year of study), 2011-2015
 
-| Professional Membership |
-|---|
-|Chartered, *Royal Geographical Society* |
+#### Professional Membership
+
+Chartered, *Royal Geographical Society*
 
 
 
