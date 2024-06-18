@@ -179,20 +179,20 @@
 
 
 
-**Modelling and Mapping: Greater Nottingham Tributaries**
-
-**Client:** The Environment Agency
-
-**Date:** 2019 – 2020
-
-I was the modelling technical lead for the Greater Nottingham Tributaries project, for 
-which hydraulic modelling was required for six watercourses throughout Nottingham. I 
-designed the modelling approach and supported the modelling from a technical perspective 
-as well as liaising with the client on a regular basis. All but one of the rivers in this 
-project were built as 1D-2D linked ESTRY-TUFLOW models.
-
-Through strong management of the technical scope and budget, I was integral in delivering 
-this package of work to good client satisfaction and within the agreed budget.
+>**Modelling and Mapping: Greater Nottingham Tributaries**
+>
+>**Client:** The Environment Agency
+>
+>**Date:** 2019 – 2020
+>
+>I was the modelling technical lead for the Greater Nottingham Tributaries project, for 
+>which hydraulic modelling was required for six watercourses throughout Nottingham. I 
+>designed the modelling approach and supported the modelling from a technical perspective 
+>as well as liaising with the client on a regular basis. All but one of the rivers in this 
+>project were built as 1D-2D linked ESTRY-TUFLOW models.
+>
+>Through strong management of the technical scope and budget, I was integral in delivering 
+>this package of work to good client satisfaction and within the agreed budget.
 
 
 &nbsp;
