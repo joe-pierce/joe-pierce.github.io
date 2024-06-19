@@ -1,5 +1,5 @@
 <!-- title: Joe Pierce CV -->
-##### joe_pierce_123@hotmail.com | 07795594011
+##### joe_pierce_123@hotmail.com     |     07795594011
 
 ### **Employment Details**
 
@@ -42,11 +42,14 @@ Chartered, *Royal Geographical Society*
 >I am a Principal Hydroinformatics Developer within the Hydroinformatics discipline at Jacobs. 
 >Combining my background in hydraulic modelling, hydrology and GIS with a passion for innovation 
 >and technology, my role focusses on the development and application of digital solutions to a wide range 
->of challenges within the Water and Flood Risk industry. I specialise in Python programming, in particular working with geospatial, scientific and numerical 
+>of challenges within the Water and Flood Risk industry. 
+>
+>I specialise in Python programming, in particular working with geospatial, scientific and numerical 
 >packages such as numpy, pandas, scipy, geopandas and shapely. I have experience designing and integrating databases (PostgreSQL, PostGIS, sqlalchemy), 
 >working with cloud infrastructure (Azure, AWS) and standard development practices 
 >such as testing, source control, documentation and CI/CD pipelines.
 >Outside of technical work I am involved in mentoring other team members and running  learning & development initiatives for colleagues across the business to learn coding skills. 
+>
 >I have worked in consultancy for 8 years, typically working with public sector clients 
 >such as the Environment Agency, Highways England and Local Authorities. Throughout 2020, 
 >I was seconded part time into Natural Resources Wales in their Flood Risk Analysis team, 
