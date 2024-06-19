@@ -117,7 +117,7 @@ Chartered, *Royal Geographical Society*
 >
 >**Date:** Jan 2021 – Jan 2022
 >
->I worked a software developer on a pilot project for the Environment Agency looking at 
+>I worked as a software developer on a pilot project for the Environment Agency looking at 
 >adaptive investment into flood risk management throughout the OxCam arc, a region in 
 >England, to the North and West of London. I was pivotal in the success of this project, 
 >developing a Postgresql database to catalogue and index results of tens of thousands of 
