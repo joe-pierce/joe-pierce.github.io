@@ -48,9 +48,9 @@ Chartered, *Royal Geographical Society*
 >packages such as numpy, pandas, scipy, geopandas and shapely. I have experience designing and integrating databases (PostgreSQL, PostGIS, sqlalchemy), 
 >working with cloud infrastructure (Azure, AWS) and standard development practices 
 >such as testing, source control, documentation and CI/CD pipelines.
->Outside of technical work I am involved in mentoring other team members and running  learning & development initiatives for colleagues across the business to learn coding skills. 
+>Outside of technical work I am involved in mentoring other team members and running learning & development initiatives for colleagues across the business globally to learn coding skills.
 >
->I have worked in consultancy for 8 years, typically working with public sector clients 
+>I have worked in consultancy for 9 years, typically working with public sector clients 
 >such as the Environment Agency, Highways England and Local Authorities. Throughout 2020, 
 >I was seconded part time into Natural Resources Wales in their Flood Risk Analysis team, 
 >gaining client-side experience in hydraulic modelling and hydrology.
@@ -121,7 +121,7 @@ Chartered, *Royal Geographical Society*
 >**Date:** Jan 2021 – Jan 2022
 >
 >I worked as a software developer on a pilot project for the Environment Agency looking at 
->adaptive investment into flood risk management throughout the OxCam arc, a region in 
+>optimising adaptive investment into flood risk management throughout the OxCam arc, a region in 
 >England, to the North and West of London. I was pivotal in the success of this project, 
 >developing a Postgresql database to catalogue and index results of tens of thousands of 
 >model simulations. I also developed a several querying functions that allowed for complex 
