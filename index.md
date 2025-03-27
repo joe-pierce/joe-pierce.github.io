@@ -39,21 +39,11 @@ Chartered, *Royal Geographical Society*
 
 ### **Profile**
 
->I am a Principal Hydroinformatics Developer within the Hydroinformatics discipline at Jacobs. 
->Combining my background in hydraulic modelling, hydrology and GIS with a passion for innovation 
->and technology, my role focusses on the development and application of digital solutions to a wide range 
->of challenges within the Water and Flood Risk industry. 
->
->I specialise in Python programming, in particular working with geospatial, scientific and numerical 
->packages such as numpy, pandas, scipy, geopandas and shapely. I have experience designing and integrating databases (PostgreSQL, PostGIS, sqlalchemy), 
->working with cloud infrastructure (Azure, AWS) and standard development practices 
->such as testing, source control, documentation and CI/CD pipelines.
->Outside of technical work I am involved in mentoring other team members and running learning & development initiatives for colleagues across the business globally to learn coding skills.
->
->I have worked in consultancy for 9 years, typically working with public sector clients 
->such as the Environment Agency, Highways England and Local Authorities. Throughout 2020, 
->I was seconded part time into Natural Resources Wales in their Flood Risk Analysis team, 
->gaining client-side experience in hydraulic modelling and hydrology.
+> I’m a Principal Hydroinformatics Developer at Jacobs, where I combine a technical background in hydraulic modeling, hydrology, and GIS with cutting-edge software development to tackle complex challenges in the water and flood risk industry. With 9 years of consultancy experience, I specialize in Python-based geospatial and scientific computing (NumPy, pandas, SciPy, GeoPandas, Shapely), database design (PostgreSQL, PostGIS, SQLAlchemy), and cloud infrastructure (AWS, Azure). I’m also well-versed in DevOps best practices including CI/CD, testing, and version control.
+
+> Whether I’m engineering large-scale flood risk assessment platforms or developing open-source Python APIs, I love leveraging technology to drive innovation. My work often involves building and integrating robust data solutions, automating workflows, and mentoring teams to adopt modern coding practices. As a Chartered Geographer (CGeog), I’m passionate about making data-driven decisions that protect communities and enhance environmental resilience.
+
+> Above all, I thrive on creating scalable, insightful solutions—merging domain expertise in water and flood risk with hands-on programming skills.
 >Throughout my career, I have demonstrated an analytical and innovative approach to solving 
 >problems and have always kept a strong focus on continual self-development.
 
