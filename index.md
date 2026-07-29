@@ -131,7 +131,7 @@ Developed software and data platforms for hydraulic modelling and flood risk ana
 
 Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, publishing and long-term support.
 
-Also designed and developed a PostgreSQL results platform for the OxCam Economic Investment Study, enabling efficient storage and analysis of large hydraulic modelling datasets.
+Designed and developed the core data platform for the Environment Agency’s pioneering OxCam Arc investment optimisation study, ingesting and processing large-scale hydraulic modelling datasets to support adaptive optimisation of flood risk investment scenarios.
 
 ---
 
