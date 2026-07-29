@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
   </head>
-  <body>
+  <body id="top">
     {% assign tagline_parts = page.tagline | split: ' | ' %}
     <a class="skip-link" href="#main-content">Skip to CV</a>
 
@@ -28,12 +28,20 @@
             {% unless forloop.last %}<span class="identity__separator" aria-hidden="true">|</span>{% endunless %}
           {% endfor %}
         </p>
+        <svg class="print-header__confluence" viewBox="0 0 160 24" aria-hidden="true" focusable="false">
+          <path class="identity__stream identity__stream--software" d="M1 4h37c16 0 21 8 40 8" />
+          <path class="identity__stream identity__stream--science" d="M1 20h37c16 0 21-8 40-8" />
+          <path class="identity__stream identity__stream--outflow" d="M78 12h81" />
+          <circle class="identity__junction" cx="78" cy="12" r="2.5" />
+        </svg>
       </div>
       <address class="print-header__contact">
-        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
-        <a href="tel:{{ page.phone | remove: ' ' }}">{{ page.phone }}</a>
-        <a href="{{ page.linkedin }}">linkedin.com/in/joe-pierce-b78139100</a>
-        <a href="{{ page.github }}">github.com/joe-pierce</a>
+        {% capture email_href %}mailto:{{ page.email }}{% endcapture %}
+        {% capture phone_href %}tel:{{ page.phone | remove: ' ' }}{% endcapture %}
+        {% include contact-link.html kind="email" href=email_href label=page.email %}
+        {% include contact-link.html kind="phone" href=phone_href label=page.phone %}
+        {% include contact-link.html kind="linkedin" href=page.linkedin label="linkedin.com/in/joe-pierce-b78139100" %}
+        {% include contact-link.html kind="github" href=page.github label="github.com/joe-pierce" %}
       </address>
     </header>
 
@@ -57,10 +65,10 @@
           </header>
 
           <address class="contact-list">
-            <a href="mailto:{{ page.email }}">{{ page.email }}</a>
-            <a href="tel:{{ page.phone | remove: ' ' }}">{{ page.phone }}</a>
-            <a href="{{ page.linkedin }}" rel="me">LinkedIn</a>
-            <a href="{{ page.github }}" rel="me">GitHub</a>
+            {% include contact-link.html kind="email" href=email_href label=page.email %}
+            {% include contact-link.html kind="phone" href=phone_href label=page.phone %}
+            {% include contact-link.html kind="linkedin" href=page.linkedin label="LinkedIn" rel="me" %}
+            {% include contact-link.html kind="github" href=page.github label="GitHub" rel="me" %}
           </address>
 
           <nav class="section-nav" aria-label="CV sections">
@@ -73,9 +81,40 @@
         </div>
       </aside>
 
+      <details class="mobile-section-menu">
+        <summary aria-label="CV navigation"><span class="mobile-section-menu__icon" aria-hidden="true"></span></summary>
+        <nav aria-label="Mobile CV sections">
+          <a class="mobile-section-menu__name" href="#top">Joe Pierce</a>
+          <a href="#profile">Profile</a>
+          <a href="#core-skills">Core skills</a>
+          <a href="#professional-experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#professional-membership">Membership</a>
+        </nav>
+      </details>
+
       <main class="cv-content" id="main-content">
         {{ content }}
       </main>
     </div>
+    <script>
+      const mobileSectionMenu = document.querySelector('.mobile-section-menu');
+
+      mobileSectionMenu?.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => mobileSectionMenu.removeAttribute('open'));
+      });
+
+      document.addEventListener('click', (event) => {
+        if (mobileSectionMenu?.open && !mobileSectionMenu.contains(event.target)) {
+          mobileSectionMenu.removeAttribute('open');
+        }
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+          mobileSectionMenu?.removeAttribute('open');
+        }
+      });
+    </script>
   </body>
 </html>

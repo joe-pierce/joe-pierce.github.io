@@ -10,8 +10,8 @@
   --print-label: 8.2pt;
   --print-body: 8.9pt;
   --print-subhead: 9.1pt;
-  --print-section: 13.7pt;
-  --print-display: 26pt;
+  --print-section: 14.5pt;
+  --print-display: 28pt;
 }
 
 * {
@@ -42,15 +42,19 @@ a {
 }
 
 .print-header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 9mm;
-  margin: 0 0 4.5mm;
-  padding: 5.5mm 7mm;
+  gap: 7mm;
+  margin: 0 0 4mm;
+  padding: 4.5mm 3mm 8mm;
   color: #ffffff;
   background: #17324d;
-  border-left: 2.5mm solid #70c4c0;
+}
+
+.print-header__identity {
+  min-width: 0;
 }
 
 .print-header__identity h1 {
@@ -78,21 +82,50 @@ a {
   color: #70c4c0;
 }
 
+.print-header__confluence {
+  position: absolute;
+  bottom: 2.1mm;
+  left: 3mm;
+  display: block;
+  width: 38mm;
+  height: auto;
+  overflow: visible;
+}
+
 .print-header__contact {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 0.7mm 4mm;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.65mm;
+  width: 62mm;
   margin: 0;
   color: #ffffff;
   font-size: 7.4pt;
   font-style: normal;
   font-variant-numeric: tabular-nums;
-  text-align: right;
+  text-align: left;
 }
 
 .print-header__contact a {
   min-width: 0;
-  overflow-wrap: anywhere;
+  white-space: nowrap;
+}
+
+.print-header__contact .contact-link {
+  display: grid;
+  grid-template-columns: 3mm minmax(0, 1fr);
+  align-items: center;
+  gap: 1.2mm;
+}
+
+.print-header__contact .contact-icon {
+  width: 3mm;
+  height: 3mm;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.75;
 }
 
 .page-shell {
@@ -110,10 +143,10 @@ a {
 .cv-content {
   position: relative;
   display: block;
-  width: 100%;
+  width: calc(100% - 6mm);
   max-width: none;
   min-height: 244mm;
-  margin: 0;
+  margin: 0 3mm;
   padding: 0;
 }
 
@@ -123,7 +156,7 @@ a {
 }
 
 .cv-section:not(.cv-section--experience) {
-  width: 39%;
+  width: 36%;
   margin: 0 0 3mm;
 }
 
@@ -131,8 +164,8 @@ a {
   position: absolute;
   top: 0;
   right: 0;
-  width: 58%;
-  padding-left: 5mm;
+  width: 61%;
+  padding-left: 4.5mm;
   border-left: 0.6pt solid #b9c8cc;
   font-size: var(--print-dense);
   line-height: 1.26;
@@ -187,6 +220,7 @@ a {
   display: flex;
   align-items: baseline;
   gap: 2mm;
+  margin-left: 0;
   margin-bottom: 0.8mm;
   padding-bottom: 0.4mm;
   border-bottom: 0.4pt solid #dce3e7;
@@ -224,6 +258,7 @@ a {
 }
 
 .cv-section--experience p {
+  margin-left: 2mm;
   margin-bottom: 0.9mm;
 }
 
@@ -238,8 +273,8 @@ a {
 }
 
 .cv-section--experience ul {
-  margin: 0.35mm 0 0.9mm;
-  padding-left: 3.2mm;
+  margin: 0.35mm 0 0.9mm 3.5mm;
+  padding-left: 3.5mm;
 }
 
 .cv-section--experience li {
@@ -253,16 +288,23 @@ a {
 .skill-group {
   display: grid;
   grid-template-columns: 32% minmax(0, 1fr);
-  align-items: baseline;
+  align-items: start;
   gap: 1mm;
   break-inside: avoid;
   padding: 0.65mm 0;
+  border: 0;
   border-bottom: 0.5pt solid #dce3e7;
 }
 
 .skill-group h3 {
   margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--print-label);
+  font-style: normal;
+  font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 0;
+  text-transform: none;
 }
 
 .skill-tags {
@@ -270,9 +312,14 @@ a {
   margin: 0;
   padding: 0;
   color: #34444f;
+  font-family: var(--font-body);
   font-size: var(--print-small);
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.25;
+  letter-spacing: 0;
   list-style: none;
+  text-transform: none;
 }
 
 .skill-tags li {
@@ -284,11 +331,16 @@ a {
   border: 0;
   border-radius: 0;
   font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
   line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
 }
 
 .skill-tags li:not(:last-child)::after {
   content: " · ";
+  font-weight: 400;
 }
 
 .skill-group p {

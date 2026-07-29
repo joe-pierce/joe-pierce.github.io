@@ -112,7 +112,7 @@ Promoted to Associate Director, providing technical leadership across hydroinfor
 **Jacobs**  
 **September 2023 – September 2025**
 
-Designed and led the delivery of several key backend components of Environment Agency's National Flood Risk Assessment (NaFRA2), one of the Emgland's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
+Designed and led the delivery of several key backend components of Environment Agency's National Flood Risk Assessment (NaFRA2), one of the England's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
 
 Highlights:
 
@@ -132,14 +132,6 @@ Developed software and data platforms for hydraulic modelling and flood risk ana
 Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, publishing and long-term support.
 
 Designed and developed the core data platform for the Environment Agency’s pioneering OxCam Arc investment optimisation study, ingesting and processing large-scale hydraulic modelling datasets to support adaptive optimisation of flood risk investment scenarios.
-
----
-
-## Flood Risk Advisor (Secondment)
-**Natural Resources Wales**  
-**January 2020 – December 2020 (Part-time)**
-
-Provided technical support for flood risk management, including hydraulic modelling, hydrology, GIS automation and planning review.
 
 ---
 
