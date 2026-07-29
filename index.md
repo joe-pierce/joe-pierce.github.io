@@ -5,7 +5,6 @@ tagline: Senior Software Engineer | Python | Backend Platforms | AI & Data Syste
 email: joe_pierce_123@hotmail.com
 phone: 07795 594011
 linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
-github: https://github.com/joe-pierce
 ---
 
 <div class="cv-overview" markdown="1">
@@ -32,7 +31,7 @@ My background in hydroinformatics gives me a strong foundation in scientific com
   <section class="skill-group">
     <h3>Languages</h3>
     <ul class="skill-tags">
-      <li>Python (Expert)</li><li>SQL</li><li>C# / .NET</li>
+      <li>Python</li><li>SQL</li><li>C# / .NET</li>
     </ul>
   </section>
 

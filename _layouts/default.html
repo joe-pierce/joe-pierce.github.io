@@ -41,7 +41,6 @@
         {% include contact-link.html kind="email" href=email_href label=page.email %}
         {% include contact-link.html kind="phone" href=phone_href label=page.phone %}
         {% include contact-link.html kind="linkedin" href=page.linkedin label="linkedin.com/in/joe-pierce-b78139100" %}
-        {% include contact-link.html kind="github" href=page.github label="github.com/joe-pierce" %}
       </address>
     </header>
 
@@ -68,7 +67,6 @@
             {% include contact-link.html kind="email" href=email_href label=page.email %}
             {% include contact-link.html kind="phone" href=phone_href label=page.phone %}
             {% include contact-link.html kind="linkedin" href=page.linkedin label="LinkedIn" rel="me" %}
-            {% include contact-link.html kind="github" href=page.github label="GitHub" rel="me" %}
           </address>
 
           <nav class="section-nav" aria-label="CV sections">
@@ -115,6 +113,87 @@
           mobileSectionMenu?.removeAttribute('open');
         }
       });
+
+      const experienceSection = document.querySelector('.cv-section--experience');
+
+      if (experienceSection) {
+        const roleGroups = [];
+        let currentGroup = [];
+
+        [...experienceSection.children].forEach((element) => {
+          if (element.tagName === 'H2') {
+            if (currentGroup.length) roleGroups.push(currentGroup);
+            currentGroup = [element];
+          } else if (currentGroup.length) {
+            currentGroup.push(element);
+          }
+        });
+
+        if (currentGroup.length) roleGroups.push(currentGroup);
+
+        const experienceEntries = roleGroups.map((group, index) => {
+          const heading = group[0];
+          const metadata = group[1]?.tagName === 'P' ? group[1] : null;
+          const roleName = heading.textContent.trim();
+          const entry = document.createElement('section');
+          const header = document.createElement('header');
+          const button = document.createElement('button');
+          const body = document.createElement('div');
+          const bodyInner = document.createElement('div');
+          const bodyId = `experience-details-${index + 1}`;
+
+          entry.className = 'experience-entry';
+          header.className = 'experience-entry__header';
+          button.className = 'experience-entry__toggle';
+          button.type = 'button';
+          button.setAttribute('aria-controls', bodyId);
+          body.className = 'experience-entry__body';
+          body.id = bodyId;
+          bodyInner.className = 'experience-entry__body-inner';
+
+          experienceSection.insertBefore(entry, heading);
+          header.appendChild(heading);
+          if (metadata) header.appendChild(metadata);
+          header.appendChild(button);
+          entry.appendChild(header);
+          body.appendChild(bodyInner);
+          entry.appendChild(body);
+
+          group.slice(metadata ? 2 : 1).forEach((element) => {
+            if (element.tagName === 'HR') {
+              element.remove();
+            } else {
+              bodyInner.appendChild(element);
+            }
+          });
+
+          return { entry, button, body, roleName };
+        });
+
+        const setExperienceEntryState = (item, expanded) => {
+          item.entry.dataset.expanded = String(expanded);
+          item.button.setAttribute('aria-expanded', String(expanded));
+          item.button.setAttribute('aria-label', `${expanded ? 'Hide' : 'Show'} details for ${item.roleName}`);
+          item.body.setAttribute('aria-hidden', String(!expanded));
+          item.body.inert = !expanded;
+        };
+
+        experienceEntries.forEach((item) => {
+          setExperienceEntryState(item, false);
+
+          item.button.addEventListener('click', () => {
+            const willExpand = item.entry.dataset.expanded !== 'true';
+
+            if (willExpand) {
+              experienceEntries.forEach((otherItem) => {
+                if (otherItem !== item) setExperienceEntryState(otherItem, false);
+              });
+            }
+
+            setExperienceEntryState(item, willExpand);
+          });
+        });
+      }
     </script>
   </body>
 </html>

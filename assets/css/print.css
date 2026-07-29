@@ -216,6 +216,20 @@ a {
   font-size: var(--print-subhead);
 }
 
+.experience-entry__toggle {
+  display: none;
+}
+
+.experience-entry__body {
+  display: block;
+  opacity: 1;
+}
+
+.experience-entry__body-inner {
+  min-height: 0;
+  overflow: visible;
+}
+
 .cv-section--experience h2 + p {
   display: flex;
   align-items: baseline;
