@@ -12,7 +12,7 @@ github: https://github.com/joe-pierce
 
 <section class="cv-section cv-section--profile" markdown="1">
 
-# Profile
+# [Profile](#profile) {#profile}
 
 Senior Software Engineer with 10 years of professional software development experience across scientific computing, data platforms and enterprise applications.
 
@@ -26,7 +26,7 @@ My background in hydroinformatics gives me a strong foundation in scientific com
 
 <section class="cv-section cv-section--skills" markdown="1">
 
-# Core Skills
+# [Core Skills](#core-skills) {#core-skills}
 
 <div class="skills-index">
   <section class="skill-group">
@@ -80,7 +80,7 @@ My background in hydroinformatics gives me a strong foundation in scientific com
 
 <section class="cv-section cv-section--experience" markdown="1">
 
-# Professional Experience
+# [Professional Experience](#professional-experience) {#professional-experience}
 
 ## Senior Python Engineer
 **Razor**  
@@ -156,7 +156,7 @@ Highlights:
 
 <section class="cv-section cv-section--education" markdown="1">
 
-# Education
+# [Education](#education) {#education}
 
 **MEnv Environmental Science (First Class Honours)**  
 University of Leeds
@@ -169,7 +169,7 @@ Third year completed at McMaster University, Canada.
 
 <section class="cv-section cv-section--membership" markdown="1">
 
-# Professional Membership
+# [Professional Membership](#professional-membership) {#professional-membership}
 
 **Chartered Geographer (CGeog)**  
 Royal Geographical Society
