@@ -197,10 +197,47 @@ a {
   background: #f1f5f4;
   border: 0.5pt solid #dce3e7;
   border-radius: 0;
+  box-shadow: none;
+}
+
+.skill-card::before,
+.skill-card h3::before {
+  display: none;
 }
 
 .skill-card--wide {
   grid-column: 1 / -1;
+}
+
+.skill-card h3 {
+  display: block;
+  margin-bottom: 0.4mm;
+}
+
+.skill-tags {
+  display: block;
+  margin: 0;
+  padding: 0;
+  color: #34444f;
+  font-size: 7.6pt;
+  line-height: 1.25;
+  list-style: none;
+}
+
+.skill-tags li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.skill-tags li:not(:last-child)::after {
+  content: " · ";
 }
 
 .skill-card p {

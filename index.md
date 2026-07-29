@@ -31,23 +31,33 @@ I enjoy solving technically difficult problems, designing clean architectures an
 <div class="skills-grid">
   <section class="skill-card">
     <h3>Languages</h3>
-    <p>Python (expert) · SQL · C# / .NET</p>
+    <ul class="skill-tags">
+      <li>Python (expert)</li><li>SQL</li><li>C# / .NET</li>
+    </ul>
   </section>
   <section class="skill-card">
     <h3>Backend &amp; APIs</h3>
-    <p>FastAPI · SQLAlchemy · Pydantic · Async Python · REST APIs · Message-driven architectures</p>
+    <ul class="skill-tags">
+      <li>FastAPI</li><li>SQLAlchemy</li><li>Pydantic</li><li>Async Python</li><li>REST APIs</li><li>Message-driven architectures</li>
+    </ul>
   </section>
   <section class="skill-card">
     <h3>Data &amp; AI</h3>
-    <p>PostgreSQL · pgvector · NumPy · pandas · SciPy · AI/LLM systems · RAG · Embeddings · Vector search</p>
+    <ul class="skill-tags">
+      <li>PostgreSQL</li><li>pgvector</li><li>NumPy</li><li>pandas</li><li>SciPy</li><li>AI/LLM systems</li><li>RAG</li><li>Embeddings</li><li>Vector search</li>
+    </ul>
   </section>
   <section class="skill-card">
     <h3>Cloud &amp; DevOps</h3>
-    <p>Azure · AWS · Docker · Kubernetes · Git · CI/CD · Automated testing</p>
+    <ul class="skill-tags">
+      <li>Azure</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>CI/CD</li><li>Automated testing</li>
+    </ul>
   </section>
   <section class="skill-card skill-card--wide">
     <h3>Scientific &amp; Geospatial</h3>
-    <p>Hydroinformatics · Flood risk modelling · GIS · GeoPandas · Shapely · Scientific computing</p>
+    <ul class="skill-tags">
+      <li>Hydroinformatics</li><li>Flood risk modelling</li><li>GIS</li><li>GeoPandas</li><li>Shapely</li><li>Scientific computing</li>
+    </ul>
   </section>
 </div>
 
