@@ -3,6 +3,17 @@
   margin: 7mm;
 }
 
+:root {
+  --print-micro: 7.3pt;
+  --print-small: 7.6pt;
+  --print-dense: 8pt;
+  --print-label: 8.2pt;
+  --print-body: 8.9pt;
+  --print-subhead: 9.1pt;
+  --print-section: 13.7pt;
+  --print-display: 24pt;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -14,7 +25,7 @@ body {
   padding: 0;
   color: #111820;
   background: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
   font-size: 8.8pt;
   line-height: 1.35;
   print-color-adjust: exact;
@@ -26,13 +37,17 @@ a {
   text-decoration: none;
 }
 
+.skip-link {
+  display: none;
+}
+
 .print-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 8mm;
-  margin: 0 0 5mm;
-  padding: 5mm 6mm;
+  margin: 0 0 4mm;
+  padding: 4.5mm 6mm;
   color: #ffffff;
   background: #17324d;
   border-left: 2mm solid #3fa0a2;
@@ -41,8 +56,9 @@ a {
 .print-header__identity h1 {
   margin: 0;
   color: #ffffff;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 24pt;
+  font-family: var(--font-display);
+  font-size: var(--print-display);
+  font-optical-sizing: auto;
   line-height: 0.95;
   letter-spacing: -0.5pt;
 }
@@ -62,7 +78,13 @@ a {
   color: #ffffff;
   font-size: 7.2pt;
   font-style: normal;
+  font-variant-numeric: tabular-nums;
   text-align: right;
+}
+
+.print-header__contact a {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .page-shell {
@@ -87,9 +109,14 @@ a {
   padding: 0;
 }
 
+.cv-overview,
+.cv-credentials {
+  display: block;
+}
+
 .cv-section:not(.cv-section--experience) {
   width: 39%;
-  margin: 0 0 4mm;
+  margin: 0 0 3mm;
 }
 
 .cv-section--experience {
@@ -99,13 +126,13 @@ a {
   width: 58%;
   padding-left: 5mm;
   border-left: 0.6pt solid #b9c8cc;
-  font-size: 8.2pt;
-  line-height: 1.27;
+  font-size: var(--print-dense);
+  line-height: 1.26;
 }
 
 .cv-section--profile {
-  font-size: 9.2pt;
-  line-height: 1.4;
+  font-size: var(--print-body);
+  line-height: 1.3;
 }
 
 .cv-content h1,
@@ -116,14 +143,20 @@ a {
 }
 
 .cv-content h1 {
-  margin: 2.5mm 0 1.5mm;
+  margin: 1.8mm 0 1.1mm;
   padding: 0 0 1mm;
   border-bottom: 0.6pt solid #9eb6b7;
   color: #17324d;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 13.7pt;
+  font-family: var(--font-display);
+  font-size: var(--print-section);
+  font-optical-sizing: auto;
   line-height: 1.05;
   letter-spacing: -0.2pt;
+}
+
+.cv-content h1:target {
+  color: #17324d;
+  border-bottom-color: #9eb6b7;
 }
 
 .cv-section > h1:first-child {
@@ -139,13 +172,39 @@ a {
 
 .cv-section--experience h2 {
   margin: 1.8mm 0 0.35mm;
-  font-size: 9.1pt;
+  font-size: var(--print-subhead);
+}
+
+.cv-section--experience h2 + p {
+  display: flex;
+  align-items: baseline;
+  gap: 2mm;
+  margin-bottom: 0.8mm;
+  padding-bottom: 0.4mm;
+  border-bottom: 0.4pt solid #dce3e7;
+}
+
+.cv-section--experience h2 + p br {
+  display: none;
+}
+
+.cv-section--experience h2 + p strong:first-child {
+  color: #246b73;
+}
+
+.cv-section--experience h2 + p strong:last-child {
+  margin-left: auto;
+  color: #52616b;
+  font-size: var(--print-micro);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .cv-content h3 {
   margin: 0 0 0.4mm;
   color: #246b73;
-  font-size: 8.2pt;
+  font-size: var(--print-label);
   line-height: 1.1;
 }
 
@@ -183,35 +242,19 @@ a {
   display: none;
 }
 
-.skills-grid {
+.skill-group {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.2mm;
-}
-
-.skill-card,
-.skill-card--wide {
+  grid-template-columns: 32% minmax(0, 1fr);
+  align-items: baseline;
+  gap: 1mm;
   break-inside: avoid;
-  grid-column: auto;
-  padding: 1.2mm 1.5mm;
-  background: #f1f5f4;
-  border: 0.5pt solid #dce3e7;
-  border-radius: 0;
-  box-shadow: none;
+  padding: 0.65mm 0;
+  border-bottom: 0.5pt solid #dce3e7;
 }
 
-.skill-card::before,
-.skill-card h3::before {
-  display: none;
-}
-
-.skill-card--wide {
-  grid-column: 1 / -1;
-}
-
-.skill-card h3 {
-  display: block;
-  margin-bottom: 0.4mm;
+.skill-group h3 {
+  margin: 0;
+  line-height: 1.2;
 }
 
 .skill-tags {
@@ -219,7 +262,7 @@ a {
   margin: 0;
   padding: 0;
   color: #34444f;
-  font-size: 7.6pt;
+  font-size: var(--print-small);
   line-height: 1.25;
   list-style: none;
 }
@@ -240,9 +283,9 @@ a {
   content: " · ";
 }
 
-.skill-card p {
+.skill-group p {
   margin: 0;
   color: #34444f;
-  font-size: 7.6pt;
+  font-size: var(--print-small);
   line-height: 1.25;
 }

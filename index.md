@@ -8,6 +8,8 @@ linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
 github: https://github.com/joe-pierce
 ---
 
+<div class="cv-overview" markdown="1">
+
 <section class="cv-section cv-section--profile" markdown="1">
 
 # Profile
@@ -28,32 +30,32 @@ I enjoy solving technically difficult problems, designing clean architectures an
 
 # Core Skills
 
-<div class="skills-grid">
-  <section class="skill-card">
+<div class="skills-index">
+  <section class="skill-group">
     <h3>Languages</h3>
     <ul class="skill-tags">
       <li>Python (expert)</li><li>SQL</li><li>C# / .NET</li>
     </ul>
   </section>
-  <section class="skill-card">
+  <section class="skill-group">
     <h3>Backend &amp; APIs</h3>
     <ul class="skill-tags">
       <li>FastAPI</li><li>SQLAlchemy</li><li>Pydantic</li><li>Async Python</li><li>REST APIs</li><li>Message-driven architectures</li>
     </ul>
   </section>
-  <section class="skill-card">
+  <section class="skill-group">
     <h3>Data &amp; AI</h3>
     <ul class="skill-tags">
       <li>PostgreSQL</li><li>pgvector</li><li>NumPy</li><li>pandas</li><li>SciPy</li><li>AI/LLM systems</li><li>RAG</li><li>Embeddings</li><li>Vector search</li>
     </ul>
   </section>
-  <section class="skill-card">
+  <section class="skill-group">
     <h3>Cloud &amp; DevOps</h3>
     <ul class="skill-tags">
       <li>Azure</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>CI/CD</li><li>Automated testing</li>
     </ul>
   </section>
-  <section class="skill-card skill-card--wide">
+  <section class="skill-group">
     <h3>Scientific &amp; Geospatial</h3>
     <ul class="skill-tags">
       <li>Hydroinformatics</li><li>Flood risk modelling</li><li>GIS</li><li>GeoPandas</li><li>Shapely</li><li>Scientific computing</li>
@@ -62,6 +64,8 @@ I enjoy solving technically difficult problems, designing clean architectures an
 </div>
 
 </section>
+
+</div>
 
 ---
 
@@ -148,6 +152,8 @@ Highlights:
 
 ---
 
+<div class="cv-credentials" markdown="1">
+
 <section class="cv-section cv-section--education" markdown="1">
 
 # Education
@@ -169,3 +175,5 @@ Third year completed at McMaster University, Canada.
 Royal Geographical Society
 
 </section>
+
+</div>

@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description | escape }}">
     <meta name="theme-color" content="#17324d">
+    <link rel="icon" href="data:,">
 
     <title>{{ page.title | default: site.title | escape }}</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to CV</a>
+
     <header class="print-header">
       <div class="print-header__identity">
         <h1>{{ page.title }}</h1>
@@ -34,6 +37,12 @@
           <header class="identity">
             <a class="identity__name" href="{{ '/' | relative_url }}">{{ page.title }}</a>
             <p class="identity__tagline">{{ page.tagline }}</p>
+            <svg class="identity__confluence" viewBox="0 0 160 24" aria-hidden="true" focusable="false">
+              <path class="identity__stream identity__stream--software" d="M1 4h37c16 0 21 8 40 8" />
+              <path class="identity__stream identity__stream--science" d="M1 20h37c16 0 21-8 40-8" />
+              <path class="identity__stream identity__stream--outflow" d="M78 12h81" />
+              <circle class="identity__junction" cx="78" cy="12" r="2.5" />
+            </svg>
           </header>
 
           <address class="contact-list">
