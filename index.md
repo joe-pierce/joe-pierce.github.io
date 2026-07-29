@@ -85,7 +85,7 @@ My background in hydroinformatics gives me a strong foundation in scientific com
 **Razor**  
 **October 2025 – Present**
 
-Design and develop an enterprise AI platform for intelligent search, document processing and data workflows within a distributed microservice architecture.
+Designing and developing an enterprise AI platform for intelligent search, document processing and data workflows within a distributed microservice architecture.
 
 Key responsibilities include:
 
@@ -103,7 +103,7 @@ Key responsibilities include:
 **Jacobs**  
 **September 2025 – October 2025**
 
-Promoted to Associate Director, providing technical leadership across hydroinformatics software development while continuing to support major national flood risk programmes.
+Following promotion to Associate Director, provided technical leadership across hydroinformatics software development while continuing to support major national flood risk programmes.
 
 ---
 
@@ -111,7 +111,7 @@ Promoted to Associate Director, providing technical leadership across hydroinfor
 **Jacobs**  
 **September 2023 – September 2025**
 
-Designed and led the delivery of several key backend components of Environment Agency's National Flood Risk Assessment (NaFRA2), one of the England's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
+Designed and led the delivery of several key backend components of the Environment Agency’s National Flood Risk Assessment (NaFRA2), one of England’s largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
 
 Highlights:
 
@@ -138,12 +138,12 @@ Designed and developed the core data platform for the Environment Agency’s pio
 **AECOM**  
 **August 2016 – December 2020**
 
-Consultant specialising in hydraulic modelling, automation and geospatial software development.
+Specialised in hydraulic modelling, automation and geospatial software development.
 
 Highlights:
 
 - Developed Python automation tools for hydraulic model generation and analysis
-- Technical lead for major flood modelling projects
+- Served as technical lead for major flood modelling projects
 - Designed GIS workflows and scientific analysis tools
 - Delivered software and modelling solutions for the Environment Agency and local authorities
 
@@ -160,7 +160,7 @@ Highlights:
 **MEnv Environmental Science (First Class Honours)**  
 University of Leeds
 
-Third year completed at McMaster University, Canada.
+Completed third year at McMaster University, Canada.
 
 </section>
 
