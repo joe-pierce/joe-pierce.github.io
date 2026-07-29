@@ -95,6 +95,7 @@ Key responsibilities include:
 - Designing PostgreSQL schemas and scalable data models for large document datasets
 - Developing asynchronous APIs and background processing services
 - Working across Python and C# services within a message-driven architecture
+- Developing and deploying containerised services within a Kubernetes-based platform
 - Contributing to system architecture, engineering standards and technical design
 
 ---
@@ -111,13 +112,13 @@ Promoted to Associate Director, providing technical leadership across hydroinfor
 **Jacobs**  
 **September 2023 – September 2025**
 
-Technical lead for backend software supporting the Environment Agency's National Flood Risk Assessment (NaFRA2), one of the UK's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
+Designed and led the delivery of several key backend components of Environment Agency's National Flood Risk Assessment (NaFRA2), one of the Emgland's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
 
 Highlights:
 
 - Designed scalable Python services, PostgreSQL data models and geospatial processing workflows
 - Led software design, code reviews and technical mentoring across the development team
-- Developed and maintained open-source Python tooling
+- Continued to develop and maintain open-source Python tooling
 - Worked extensively with AWS infrastructure and large-scale scientific computing
 
 ---
@@ -128,7 +129,7 @@ Highlights:
 
 Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend systems supporting NaFRA2.
 
-Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, PyPI publishing and long-term support.
+Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, publishing and long-term support.
 
 Also designed and developed a PostgreSQL results platform for the OxCam Economic Investment Study, enabling efficient storage and analysis of large hydraulic modelling datasets.
 
