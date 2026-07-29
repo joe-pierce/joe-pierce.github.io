@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Joe Pierce
-tagline: Senior Python Engineer | Backend & Data Platforms | AI Systems
+tagline: Senior Software Engineer | Python | Backend Platforms | AI & Data Systems
 email: joe_pierce_123@hotmail.com
 phone: 07795 594011
 linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
@@ -14,13 +14,11 @@ github: https://github.com/joe-pierce
 
 # Profile
 
-Senior Python Engineer with 10 years of experience designing and building scalable software for data-intensive, scientific and enterprise applications.
+Senior Software Engineer with 10 years of professional software development experience across scientific computing, data platforms and enterprise applications.
 
-My background combines professional software engineering with hydroinformatics and flood risk consultancy, giving me a rare combination of strong engineering capability alongside deep domain expertise in scientific modelling, geospatial data and complex analytical workflows.
+In recent years I have specialised in designing backend platforms, distributed systems and enterprise AI products using Python, PostgreSQL and modern API technologies, including intelligent search, document processing and data workflows.
 
-I specialise in designing reliable backend systems, distributed services and data platforms using modern Python technologies including FastAPI, SQLAlchemy, PostgreSQL, async programming and AI-powered workflows. More recently my work has focused on enterprise AI products, retrieval systems and intelligent data platforms within manufacturing, while continuing to develop expertise in C# and .NET.
-
-I enjoy solving technically difficult problems, designing clean architectures and mentoring engineering teams to build maintainable, production-quality software.
+My background in hydroinformatics gives me a strong foundation in scientific computing, geospatial data and large-scale analytical systems.
 
 </section>
 
@@ -34,31 +32,42 @@ I enjoy solving technically difficult problems, designing clean architectures an
   <section class="skill-group">
     <h3>Languages</h3>
     <ul class="skill-tags">
-      <li>Python (expert)</li><li>SQL</li><li>C# / .NET</li>
+      <li>Python (Expert)</li><li>SQL</li><li>C# / .NET</li>
     </ul>
   </section>
+
   <section class="skill-group">
-    <h3>Backend &amp; APIs</h3>
+    <h3>Backend Engineering</h3>
     <ul class="skill-tags">
-      <li>FastAPI</li><li>SQLAlchemy</li><li>Pydantic</li><li>Async Python</li><li>REST APIs</li><li>Message-driven architectures</li>
+      <li>FastAPI</li><li>SQLAlchemy</li><li>REST APIs</li><li>Async Python</li><li>Distributed Systems</li><li>Message-driven Architecture</li>
     </ul>
   </section>
+
   <section class="skill-group">
-    <h3>Data &amp; AI</h3>
+    <h3>Data Engineering</h3>
     <ul class="skill-tags">
-      <li>PostgreSQL</li><li>pgvector</li><li>NumPy</li><li>pandas</li><li>SciPy</li><li>AI/LLM systems</li><li>RAG</li><li>Embeddings</li><li>Vector search</li>
+      <li>PostgreSQL</li><li>Data Modelling</li><li>Query Optimisation</li><li>NumPy</li><li>pandas</li>
     </ul>
   </section>
+
+  <section class="skill-group">
+    <h3>AI &amp; Search</h3>
+    <ul class="skill-tags">
+      <li>LLM Systems</li><li>RAG</li><li>Vector Search</li><li>Embeddings</li><li>Document Processing</li>
+    </ul>
+  </section>
+
   <section class="skill-group">
     <h3>Cloud &amp; DevOps</h3>
     <ul class="skill-tags">
-      <li>Azure</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>CI/CD</li><li>Automated testing</li>
+      <li>Azure</li><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>CI/CD</li>
     </ul>
   </section>
+
   <section class="skill-group">
-    <h3>Scientific &amp; Geospatial</h3>
+    <h3>Scientific Computing</h3>
     <ul class="skill-tags">
-      <li>Hydroinformatics</li><li>Flood risk modelling</li><li>GIS</li><li>GeoPandas</li><li>Shapely</li><li>Scientific computing</li>
+      <li>Hydroinformatics</li><li>GIS</li><li>GeoPandas</li><li>Shapely</li><li>Scientific Computing</li>
     </ul>
   </section>
 </div>
@@ -74,28 +83,24 @@ I enjoy solving technically difficult problems, designing clean architectures an
 # Professional Experience
 
 ## Senior Python Engineer
-**Razor**<br>
+**Razor**  
 **October 2025 – Present**
 
-Design and develop an enterprise AI product for intelligent search, document processing and data workflows in manufacturing environments, within a distributed microservice architecture.
+Design and develop an enterprise AI platform for intelligent search, document processing and data workflows within a distributed microservice architecture.
 
 Key responsibilities include:
 
-- Designing scalable backend services in Python
-- Building production retrieval systems using embeddings, vector search and RAG
-- Designing PostgreSQL schemas and high-performance data models
-- Developing production APIs and asynchronous services
-- Working across Python and .NET services in a multi-language environment
-- Contributing to architecture, engineering standards and technical design
-
-**Technologies**
-
-Python • FastAPI • PostgreSQL • SQLAlchemy • Azure • Docker • AI/LLMs • Vector Search • C#
+- Designing distributed Python microservices for enterprise AI workflows
+- Building production retrieval pipelines using embeddings, vector search and reranking
+- Designing PostgreSQL schemas and scalable data models for large document datasets
+- Developing asynchronous APIs and background processing services
+- Working across Python and C# services within a message-driven architecture
+- Contributing to system architecture, engineering standards and technical design
 
 ---
 
 ## Associate Director of Hydroinformatics
-**Jacobs**<br>
+**Jacobs**  
 **September 2025 – October 2025**
 
 Promoted to Associate Director, providing technical leadership across hydroinformatics software development while continuing to support major national flood risk programmes.
@@ -103,50 +108,52 @@ Promoted to Associate Director, providing technical leadership across hydroinfor
 ---
 
 ## Principal Hydroinformatics Developer
-**Jacobs**<br>
+**Jacobs**  
 **September 2023 – September 2025**
 
-Technical lead and backend engineer on the Environment Agency's National Flood Risk Assessment (NaFRA2), one of the UK's largest flood risk programmes. Built cloud-native software used to assess flood risk across England.
+Technical lead for backend software supporting the Environment Agency's National Flood Risk Assessment (NaFRA2), one of the UK's largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
 
 Highlights:
 
 - Designed scalable Python services, PostgreSQL data models and geospatial processing workflows
-- Led software design and mentored junior developers
+- Led software design, code reviews and technical mentoring across the development team
 - Developed and maintained open-source Python tooling
 - Worked extensively with AWS infrastructure and large-scale scientific computing
 
 ---
 
 ## Senior Hydroinformatics Developer
-**Jacobs**<br>
+**Jacobs**  
 **January 2021 – September 2023**
 
-Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend services for NaFRA2.
+Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend systems supporting NaFRA2.
 
-Conceived, designed and launched the open-source **Flood Modeller Python API**, securing internal funding and owning its API and package architecture, documentation, testing, PyPI publishing and user support. Also developed a PostgreSQL results platform for the OxCam Economic Investment Study.
+Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, PyPI publishing and long-term support.
+
+Also designed and developed a PostgreSQL results platform for the OxCam Economic Investment Study, enabling efficient storage and analysis of large hydraulic modelling datasets.
 
 ---
 
 ## Flood Risk Advisor (Secondment)
-**Natural Resources Wales**<br>
+**Natural Resources Wales**  
 **January 2020 – December 2020 (Part-time)**
 
-Provided technical support for flood risk management including hydraulic modelling, hydrology, GIS automation and planning review.
+Provided technical support for flood risk management, including hydraulic modelling, hydrology, GIS automation and planning review.
 
 ---
 
 ## Flood Risk Consultant
-**AECOM**<br>
+**AECOM**  
 **August 2016 – December 2020**
 
-Consultant specialising in hydraulic modelling, automation and geospatial software.
+Consultant specialising in hydraulic modelling, automation and geospatial software development.
 
 Highlights:
 
-- Developed Python automation tools for hydraulic model generation
+- Developed Python automation tools for hydraulic model generation and analysis
 - Technical lead for major flood modelling projects
 - Designed GIS workflows and scientific analysis tools
-- Delivered projects for the Environment Agency and local authorities
+- Delivered software and modelling solutions for the Environment Agency and local authorities
 
 </section>
 
@@ -158,7 +165,7 @@ Highlights:
 
 # Education
 
-**MEnv Environmental Science (First Class Honours)**<br>
+**MEnv Environmental Science (First Class Honours)**  
 University of Leeds
 
 Third year completed at McMaster University, Canada.
@@ -171,7 +178,7 @@ Third year completed at McMaster University, Canada.
 
 # Professional Membership
 
-**Chartered Geographer (CGeog)**<br>
+**Chartered Geographer (CGeog)**  
 Royal Geographical Society
 
 </section>
