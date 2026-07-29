@@ -11,7 +11,7 @@
   --print-body: 8.9pt;
   --print-subhead: 9.1pt;
   --print-section: 13.7pt;
-  --print-display: 24pt;
+  --print-display: 26pt;
 }
 
 * {
@@ -45,12 +45,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8mm;
-  margin: 0 0 4mm;
-  padding: 4.5mm 6mm;
+  gap: 9mm;
+  margin: 0 0 4.5mm;
+  padding: 5.5mm 7mm;
   color: #ffffff;
   background: #17324d;
-  border-left: 2mm solid #3fa0a2;
+  border-left: 2.5mm solid #70c4c0;
 }
 
 .print-header__identity h1 {
@@ -63,11 +63,19 @@ a {
   letter-spacing: -0.5pt;
 }
 
-.print-header__identity p {
-  margin: 1.5mm 0 0;
+.print-header__tagline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5mm 1.2mm;
+  margin: 1.7mm 0 0;
   color: #d7e5e6;
-  font-size: 8.5pt;
+  font-size: 9pt;
   font-weight: 600;
+}
+
+.print-header__tagline .identity__separator {
+  color: #70c4c0;
 }
 
 .print-header__contact {
@@ -76,7 +84,7 @@ a {
   gap: 0.7mm 4mm;
   margin: 0;
   color: #ffffff;
-  font-size: 7.2pt;
+  font-size: 7.4pt;
   font-style: normal;
   font-variant-numeric: tabular-nums;
   text-align: right;

@@ -16,12 +16,18 @@
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
   </head>
   <body>
+    {% assign tagline_parts = page.tagline | split: ' | ' %}
     <a class="skip-link" href="#main-content">Skip to CV</a>
 
     <header class="print-header">
       <div class="print-header__identity">
         <h1>{{ page.title }}</h1>
-        <p>{{ page.tagline }}</p>
+        <p class="print-header__tagline" aria-label="{{ page.tagline }}">
+          {% for part in tagline_parts %}
+            <span class="identity__role" aria-hidden="true">{{ part }}</span>
+            {% unless forloop.last %}<span class="identity__separator" aria-hidden="true">|</span>{% endunless %}
+          {% endfor %}
+        </p>
       </div>
       <address class="print-header__contact">
         <a href="mailto:{{ page.email }}">{{ page.email }}</a>
@@ -36,7 +42,12 @@
         <div class="sidebar__inner">
           <header class="identity">
             <a class="identity__name" href="{{ '/' | relative_url }}">{{ page.title }}</a>
-            <p class="identity__tagline">{{ page.tagline }}</p>
+            <p class="identity__tagline" aria-label="{{ page.tagline }}">
+              {% for part in tagline_parts %}
+                <span class="identity__role" aria-hidden="true">{{ part }}</span>
+                {% unless forloop.last %}<span class="identity__separator" aria-hidden="true">|</span>{% endunless %}
+              {% endfor %}
+            </p>
             <svg class="identity__confluence" viewBox="0 0 160 24" aria-hidden="true" focusable="false">
               <path class="identity__stream identity__stream--software" d="M1 4h37c16 0 21 8 40 8" />
               <path class="identity__stream identity__stream--science" d="M1 20h37c16 0 21-8 40-8" />
