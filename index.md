@@ -1,194 +1,161 @@
-<!-- title: Joe Pierce CV -->
-##### joe_pierce_123@hotmail.com     |     07795594011
+---
+layout: default
+title: Joe Pierce
+tagline: Senior Python Engineer | Backend & Data Platforms | AI Systems
+email: joe_pierce_123@hotmail.com
+phone: 07795 594011
+linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
+github: https://github.com/joe-pierce
+---
 
-### **Employment Details**
+<section class="cv-section cv-section--profile" markdown="1">
 
-| Date | Company | Role |
-| --- | --- | --- |
-| Sept 2023 - present | Jacobs | Principal Hydroinformatics Developer |
-| Jan 2021 - Sept 2023 | Jacobs | Senior Hydroinformatics Developer |
-| Jan 2020 - Dec 2020 | Natural Resources Wales | Flood Risk Advisor (secondment, part-time)  |
-| Aug 2016 – Dec 2020 | AECOM | Flood Risk Consultant |
-| Summer 2016 & 2013 | Maestro Tour Management | Tour Coordinator for National Youth Orchestra of the USA |
-| April 2016 – May 2016 | EducationApps Ltd | Maths and Chemistry Tutor |
-| Nov 2015 – April 2016 | Skiworld Ltd | Chalet Host |
+# Profile
 
+Senior Python Engineer with 10 years of experience designing and building scalable software for data-intensive, scientific and enterprise applications.
 
-#### Education
+My background combines professional software engineering with hydroinformatics and flood risk consultancy, giving me a rare combination of strong engineering capability alongside deep domain expertise in scientific modelling, geospatial data and complex analytical workflows.
 
-**MEnv BSc (Hons) first class, Environmental Science (International)**, University of Leeds and McMaster University, Canada (third year of study), 2011-2015
+I specialise in designing reliable backend systems, distributed services and data platforms using modern Python technologies including FastAPI, SQLAlchemy, PostgreSQL, async programming and AI-powered workflows. More recently my work has focused on enterprise AI products, retrieval systems and intelligent data platforms within manufacturing, while continuing to develop expertise in C# and .NET.
 
-#### Professional Membership
+I enjoy solving technically difficult problems, designing clean architectures and mentoring engineering teams to build maintainable, production-quality software.
 
-Chartered, *Royal Geographical Society*
+</section>
 
+---
 
+<section class="cv-section cv-section--skills" markdown="1">
 
-| **Technical Skills**| | **Soft Skills**| |
-| ---: | :--- | ---: | :--- |
-| Python (geospatial, scientific/numerical, automation) | ![](5.png) |Problem solving and analytical skills | ![](5.png) |
-| Database development (PostgreSQL, SQLAlchemy) | ![](4.png) | Innovative | ![](5.png) |
-| Software development (DevOps, git, AWS, design principles, unit testing) | ![](4.png)  | Verbal and written communication | ![](4.png) |
-| GIS (ArcGIS, QGIS, MapInfo) | ![](5.png) | Leadership & Mentoring | ![](3.png) |
-| Hydraulic Modelling (Flood Modeller, TUFLOW, HECRAS) | ![](5.png) | Enthusiastic | ![](4.png) |
-| Hydrological Analysis (WINFAP-FEH, ReFH2) | ![](4.png) | Programme & budget management | ![](3.png) |
-| Image Processing | ![](3.png) | Flexibility | ![](4.png) |
-| HTML, CSS, Markdown, RST | ![](2.png) | Continuous development | ![](5.png) |
+# Core Skills
 
+<div class="skills-grid">
+  <section class="skill-card">
+    <h3>Languages</h3>
+    <p>Python (expert) · SQL · C# / .NET</p>
+  </section>
+  <section class="skill-card">
+    <h3>Backend &amp; APIs</h3>
+    <p>FastAPI · SQLAlchemy · Pydantic · Async Python · REST APIs · Message-driven architectures</p>
+  </section>
+  <section class="skill-card">
+    <h3>Data &amp; AI</h3>
+    <p>PostgreSQL · pgvector · NumPy · pandas · SciPy · AI/LLM systems · RAG · Embeddings · Vector search</p>
+  </section>
+  <section class="skill-card">
+    <h3>Cloud &amp; DevOps</h3>
+    <p>Azure · AWS · Docker · Kubernetes · Git · CI/CD · Automated testing</p>
+  </section>
+  <section class="skill-card skill-card--wide">
+    <h3>Scientific &amp; Geospatial</h3>
+    <p>Hydroinformatics · Flood risk modelling · GIS · GeoPandas · Shapely · Scientific computing</p>
+  </section>
+</div>
 
+</section>
 
-### **Profile**
+---
 
-> I’m a Principal Hydroinformatics Developer at Jacobs, where I combine a technical background in hydraulic modeling, hydrology, and GIS with cutting-edge software development to tackle complex challenges in the water and flood risk industry. With 9 years of consultancy experience, I specialize in Python-based geospatial and scientific computing (NumPy, pandas, SciPy, GeoPandas, Shapely), database design (PostgreSQL, PostGIS, SQLAlchemy), and cloud infrastructure (AWS, Azure). I’m also well-versed in DevOps best practices including CI/CD, testing, and version control.
->
-> Whether I’m engineering large-scale flood risk assessment platforms or developing open-source Python APIs, I love leveraging technology to drive innovation. My work often involves building and integrating robust data solutions, automating workflows, and mentoring teams to adopt modern coding practices. As a Chartered Geographer (CGeog), I’m passionate about making data-driven decisions that protect communities and enhance environmental resilience.
->
-> Above all, I thrive on creating scalable, insightful solutions—merging domain expertise in water and flood risk with hands-on programming skills.
->Throughout my career, I have demonstrated an analytical and innovative approach to solving 
->problems and have always kept a strong focus on continual self-development.
+<section class="cv-section cv-section--experience" markdown="1">
 
+# Professional Experience
 
+## Senior Python Engineer
+**Razor**<br>
+**October 2025 – Present**
 
-### **Selected Professional Project Experience**
+Design and develop an enterprise AI product for intelligent search, document processing and data workflows in manufacturing environments, within a distributed microservice architecture.
 
-> **National Flood Risk Assessment 2 (NaFRA2)**
->
->**Client:** The Environment Agency
->
->**Date:** May 2021 – Present
->
->I am currently working as a backend software engineer building the system for the National 
->Flood Risk Assessment 2 (NaFRA2), a pioneering cloud computing system to help manage 
->flood risk in England. NaFRA2 is perhaps one of the most exciting flood risk projects 
->in the UK in recent times as it brings together a wealth of data from various sources, 
->including local modelling data as well as new national modelling into an interactive 
->online environment which will be the first of its kind globally!
->
->I am responsible for the development of the core backend system, helping drive the 
->method development, and providing technical support and mentoring to junior members of 
->the team. 
->
->Once deployed, NaFRA2 will provide a novel and adaptive approach to managing flood risk 
->in England, and I am proud to be playing a crucial in its development.
- 
+Key responsibilities include:
 
-&nbsp;
+- Designing scalable backend services in Python
+- Building production retrieval systems using embeddings, vector search and RAG
+- Designing PostgreSQL schemas and high-performance data models
+- Developing production APIs and asynchronous services
+- Working across Python and .NET services in a multi-language environment
+- Contributing to architecture, engineering standards and technical design
 
+**Technologies**
 
+Python • FastAPI • PostgreSQL • SQLAlchemy • Azure • Docker • AI/LLMs • Vector Search • C#
 
->**Flood Modeller Python API**
->
->**Client:** Anyone!
->
->**Date:** Mar 2021 – Present
->
->I am currently developing an open-source python package designed to integrate with Flood 
->Modeller, the UK’s leading hydraulic modelling software developed by Jacobs. Soon after 
->joining Jacobs, I developed and pitched the idea of the API and was successful in securing 
->funding.
->
->The Flood Modeller Python API is the first of its kind in the flood risk industry, and 
->provides users with a new way of working with flood risk data unlocking myriad potential 
->use cases.
->
->In addition to designing and developing all of the code I have also produced 
->[online documentation](https://api.floodmodeller.com/), organised the testing by 
->developers and users, built the package to be 
->[distributed via the python package index (PyPI)](https://pypi.org/project/floodmodeller-api/) 
->and have presented it through several internal and external channels.
->
->The project can be [found on GitHub here](https://github.com/People-Places-Solutions/floodmodeller-api)
+---
 
+## Associate Director of Hydroinformatics
+**Jacobs**<br>
+**September 2025 – October 2025**
 
-&nbsp;
+Promoted to Associate Director, providing technical leadership across hydroinformatics software development while continuing to support major national flood risk programmes.
 
+---
 
+## Principal Hydroinformatics Developer
+**Jacobs**<br>
+**September 2023 – September 2025**
 
->**OxCam Economic Investment Study**
->
->**Client:** The Environment Agency
->
->**Date:** Jan 2021 – Jan 2022
->
->I worked as a software developer on a pilot project for the Environment Agency looking at 
->optimising adaptive investment into flood risk management throughout the OxCam arc, a region in 
->England, to the North and West of London. I was pivotal in the success of this project, 
->developing a Postgresql database to catalogue and index results of tens of thousands of 
->model simulations. I also developed a several querying functions that allowed for complex 
->extraction of results based on a huge range of possible scenarios, and integrated this 
->with real time economic analysis.
+Technical lead and backend engineer on the Environment Agency's National Flood Risk Assessment (NaFRA2), one of the UK's largest flood risk programmes. Built cloud-native software used to assess flood risk across England.
 
+Highlights:
 
-&nbsp;
+- Designed scalable Python services, PostgreSQL data models and geospatial processing workflows
+- Led software design and mentored junior developers
+- Developed and maintained open-source Python tooling
+- Worked extensively with AWS infrastructure and large-scale scientific computing
 
+---
 
+## Senior Hydroinformatics Developer
+**Jacobs**<br>
+**January 2021 – September 2023**
 
->**Flood Risk Advisor Secondment**
->
->**Client:** Natural Resources Wales (NRW)
->
->**Date:** Jan 2020 – Dec 2020
->
->In January 2020 I began a part-time (3 days per week) secondment at NRW, originally for 
->3 months although later extended for a further 9 months. My role was to support the Flood 
->Risk Analysis team with their work including: reviewing hydraulic models submitted as 
->part of the planning process, building and updating hydraulic models to improve understanding 
->of flood risk to communities, and undertaking hydrological assessments of catchments to 
->assess their response to extreme rainfall. I also helped the team with general GIS and 
->automation, for example writing a script to extract, clean and organise GIS data from 
->their latest national flood risk dataset. 
->
->Until late March 2020 I worked from their Buckley Office in North Wales and undertook 
->site visits to some of the rivers I was working on in order to take survey spot levels 
->and to get a better understanding of the channel conditions. As well as gaining experience 
->and insight into working in the public sector and the statutory role of NRW, this opportunity 
->has given me experience in working in a different geographical area of the UK, being both 
->unique hydrologically and socially.
+Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend services for NaFRA2.
 
+Conceived, designed and launched the open-source **Flood Modeller Python API**, securing internal funding and owning its API and package architecture, documentation, testing, PyPI publishing and user support. Also developed a PostgreSQL results platform for the OxCam Economic Investment Study.
 
-&nbsp;
+---
 
+## Flood Risk Advisor (Secondment)
+**Natural Resources Wales**<br>
+**January 2020 – December 2020 (Part-time)**
 
+Provided technical support for flood risk management including hydraulic modelling, hydrology, GIS automation and planning review.
 
->**SIMBA – Rapid river & surface water model building tool**
->
->**Client:** Internal (AECOM)
->
->**Date:** 2019 – 2020
->
->Originally developed as part of an internal hackday at AECOM, I developed a tool written 
->in Python for ArcGIS which automates the initial set up and build for fluvial and pluvial 
->TUFLOW models. This tool provides great time-savings in the initial stages of a model 
->build and was presented to other staff across AECOM’s modelling team nationally. 
->
->The code behind SIMBA demonstrates a great understanding of geospatial problem solving 
->and knowledge of TUFLOW and include numerous complex processes including: iteratively 
->delineating catchment boundaries based on and area of interest and underlying DTM, generating 
->all necessary GIS layers for TUFLOW from input data, and creating and linking necessary 
->TUFLOW control files.
+---
 
+## Flood Risk Consultant
+**AECOM**<br>
+**August 2016 – December 2020**
 
-&nbsp;
+Consultant specialising in hydraulic modelling, automation and geospatial software.
 
+Highlights:
 
+- Developed Python automation tools for hydraulic model generation
+- Technical lead for major flood modelling projects
+- Designed GIS workflows and scientific analysis tools
+- Delivered projects for the Environment Agency and local authorities
 
->**Modelling and Mapping: Greater Nottingham Tributaries**
->
->**Client:** The Environment Agency
->
->**Date:** 2019 – 2020
->
->I was the modelling technical lead for the Greater Nottingham Tributaries project, for 
->which hydraulic modelling was required for six watercourses throughout Nottingham. I 
->designed the modelling approach and supported the modelling from a technical perspective 
->as well as liaising with the client on a regular basis. All but one of the rivers in this 
->project were built as 1D-2D linked ESTRY-TUFLOW models.
->
->Through strong management of the technical scope and budget, I was integral in delivering 
->this package of work to good client satisfaction and within the agreed budget.
+</section>
 
+---
 
-&nbsp;
+<section class="cv-section cv-section--education" markdown="1">
 
+# Education
 
+**MEnv Environmental Science (First Class Honours)**<br>
+University of Leeds
 
+Third year completed at McMaster University, Canada.
+
+</section>
+
+---
+
+<section class="cv-section cv-section--membership" markdown="1">
+
+# Professional Membership
+
+**Chartered Geographer (CGeog)**<br>
+Royal Geographical Society
+
+</section>

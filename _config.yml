@@ -1,5 +1,11 @@
 title: Joe Pierce
-description: Principal Hydroinformatics Developer
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+description: Senior Python Engineer specialising in backend, data and AI systems
+url: "https://joe-pierce.github.io"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

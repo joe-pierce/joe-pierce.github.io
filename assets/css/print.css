@@ -1,0 +1,211 @@
+@page {
+  size: A4 portrait;
+  margin: 7mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #111820;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8.8pt;
+  line-height: 1.35;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.print-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8mm;
+  margin: 0 0 5mm;
+  padding: 5mm 6mm;
+  color: #ffffff;
+  background: #17324d;
+  border-left: 2mm solid #3fa0a2;
+}
+
+.print-header__identity h1 {
+  margin: 0;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24pt;
+  line-height: 0.95;
+  letter-spacing: -0.5pt;
+}
+
+.print-header__identity p {
+  margin: 1.5mm 0 0;
+  color: #d7e5e6;
+  font-size: 8.5pt;
+  font-weight: 600;
+}
+
+.print-header__contact {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.7mm 4mm;
+  margin: 0;
+  color: #ffffff;
+  font-size: 7.2pt;
+  font-style: normal;
+  text-align: right;
+}
+
+.page-shell {
+  display: block;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  box-shadow: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+.cv-content {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-height: 244mm;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-section:not(.cv-section--experience) {
+  width: 39%;
+  margin: 0 0 4mm;
+}
+
+.cv-section--experience {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58%;
+  padding-left: 5mm;
+  border-left: 0.6pt solid #b9c8cc;
+  font-size: 8.2pt;
+  line-height: 1.27;
+}
+
+.cv-section--profile {
+  font-size: 9.2pt;
+  line-height: 1.4;
+}
+
+.cv-content h1,
+.cv-content h2,
+.cv-content h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+.cv-content h1 {
+  margin: 2.5mm 0 1.5mm;
+  padding: 0 0 1mm;
+  border-bottom: 0.6pt solid #9eb6b7;
+  color: #17324d;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.7pt;
+  line-height: 1.05;
+  letter-spacing: -0.2pt;
+}
+
+.cv-section > h1:first-child {
+  margin-top: 0;
+}
+
+.cv-content h2 {
+  margin: 2.5mm 0 0.6mm;
+  color: #17324d;
+  font-size: 9.5pt;
+  line-height: 1.1;
+}
+
+.cv-section--experience h2 {
+  margin: 1.8mm 0 0.35mm;
+  font-size: 9.1pt;
+}
+
+.cv-content h3 {
+  margin: 0 0 0.4mm;
+  color: #246b73;
+  font-size: 8.2pt;
+  line-height: 1.1;
+}
+
+.cv-content p {
+  margin: 0 0 1.4mm;
+  max-width: none;
+  orphans: 2;
+  widows: 2;
+}
+
+.cv-section--experience p {
+  margin-bottom: 0.9mm;
+}
+
+.cv-content ul {
+  margin: 0.7mm 0 1.6mm;
+  padding-left: 3.5mm;
+}
+
+.cv-content li {
+  margin: 0 0 0.3mm;
+  padding-left: 0;
+}
+
+.cv-section--experience ul {
+  margin: 0.35mm 0 0.9mm;
+  padding-left: 3.2mm;
+}
+
+.cv-section--experience li {
+  margin-bottom: 0.1mm;
+}
+
+.cv-content hr {
+  display: none;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.2mm;
+}
+
+.skill-card,
+.skill-card--wide {
+  break-inside: avoid;
+  grid-column: auto;
+  padding: 1.2mm 1.5mm;
+  background: #f1f5f4;
+  border: 0.5pt solid #dce3e7;
+  border-radius: 0;
+}
+
+.skill-card--wide {
+  grid-column: 1 / -1;
+}
+
+.skill-card p {
+  margin: 0;
+  color: #34444f;
+  font-size: 7.6pt;
+  line-height: 1.25;
+}
