@@ -184,13 +184,16 @@
           item.button.addEventListener('click', () => {
             const willExpand = item.entry.dataset.expanded !== 'true';
 
+            setExperienceEntryState(item, willExpand);
+
             if (willExpand) {
-              experienceEntries.forEach((otherItem) => {
-                if (otherItem !== item) setExperienceEntryState(otherItem, false);
+              requestAnimationFrame(() => {
+                item.entry.scrollIntoView({
+                  behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+                  block: 'start'
+                });
               });
             }
-
-            setExperienceEntryState(item, willExpand);
           });
         });
       }

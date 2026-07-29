@@ -437,7 +437,7 @@ a:focus-visible {
 
 .skill-tags li:not(:last-child)::after {
   color: #8ca5a5;
-  content: "  ·  ";
+  content: "\00a0· ";
 }
 
 @media screen {
@@ -460,6 +460,7 @@ a:focus-visible {
   }
 
   .experience-entry {
+    scroll-margin-top: clamp(1rem, 6vh, 3rem);
     border-bottom: 1px solid var(--line);
   }
 
@@ -571,7 +572,7 @@ a:focus-visible {
 
   .skill-group {
     display: grid;
-    grid-template-columns: 8rem minmax(0, 1fr);
+    grid-template-columns: 7.25rem minmax(0, 1fr);
     align-items: baseline;
     gap: 1rem;
     padding: 0.5rem 0;
@@ -651,7 +652,7 @@ a:focus-visible {
   }
 
   .cv-overview .skill-group {
-    grid-template-columns: 6.25rem minmax(0, 1fr);
+    grid-template-columns: 5.5rem minmax(0, 1fr);
     gap: 0.65rem;
     padding: 0.3rem 0;
   }

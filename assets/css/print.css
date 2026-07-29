@@ -301,7 +301,7 @@ a {
 
 .skill-group {
   display: grid;
-  grid-template-columns: 32% minmax(0, 1fr);
+  grid-template-columns: 29% minmax(0, 1fr);
   align-items: start;
   gap: 1mm;
   break-inside: avoid;
@@ -353,7 +353,7 @@ a {
 }
 
 .skill-tags li:not(:last-child)::after {
-  content: " · ";
+  content: "\00a0· ";
   font-weight: 400;
 }
 
