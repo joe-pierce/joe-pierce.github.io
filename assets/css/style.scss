@@ -364,7 +364,9 @@ a:focus-visible {
 
 .cv-section--experience h2 + p strong:first-child {
   color: var(--accent);
-  font-size: var(--type-label);
+  font-size: 0.9375rem;
+  font-weight: 750;
+  letter-spacing: 0.01em;
 }
 
 .cv-section--experience h2 + p strong:last-child {

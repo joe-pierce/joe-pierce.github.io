@@ -13,11 +13,11 @@ linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
 
 # [Profile](#profile) {#profile}
 
-Senior Software Engineer with 10 years of professional software development experience across scientific computing, data platforms and enterprise applications.
+Senior Software Engineer with 10 years of professional experience delivering large-scale backend platforms, distributed systems and data-intensive software across AI, scientific computing and cloud infrastructure.
 
-In recent years I have specialised in designing backend platforms, distributed systems and enterprise AI products using Python, PostgreSQL and modern API technologies, including intelligent search, document processing and data workflows.
+Most recently I have specialised in designing enterprise AI platforms, building resilient backend services, intelligent search systems and high-performance data processing pipelines that operate at production scale.
 
-My background in hydroinformatics gives me a strong foundation in scientific computing, geospatial data and large-scale analytical systems.
+My background in hydroinformatics provides a strong foundation in large-scale analytical systems, where I helped deliver core software for the Environment Agency's National Flood Risk Assessment (NaFRA2), a pioneering cloud-native platform supporting one of England's largest environmental modelling programmes.
 
 </section>
 
@@ -38,7 +38,7 @@ My background in hydroinformatics gives me a strong foundation in scientific com
   <section class="skill-group">
     <h3>Backend Engineering</h3>
     <ul class="skill-tags">
-      <li>FastAPI</li><li>SQLAlchemy</li><li>REST APIs</li><li>Async Python</li><li>Distributed Systems</li><li>Message-driven Architecture</li>
+      <li>FastAPI</li><li>SQLAlchemy</li><li>REST APIs</li><li>Asynchronous programming</li><li>Distributed Systems</li><li>Message-driven Architecture (NATS Jetstream, RabbitMQ)</li>
     </ul>
   </section>
 
@@ -64,9 +64,16 @@ My background in hydroinformatics gives me a strong foundation in scientific com
   </section>
 
   <section class="skill-group">
+    <h3>Modern Software Tooling</h3>
+    <ul class="skill-tags">
+      <li>Uv</li><li>Ruff</li><li>Ty</li><li>Pytest</li><li>Spec-driven Development</li><li>AI-assisted Development</li><li>MCP Servers</li><li>Linux/WSL</li>
+    </ul>
+  </section>
+
+  <section class="skill-group">
     <h3>Scientific Computing</h3>
     <ul class="skill-tags">
-      <li>Hydroinformatics</li><li>GIS</li><li>GeoPandas</li><li>Shapely</li><li>Scientific Computing</li>
+      <li>Scipy</li><li>Optimisation</li><li>Geospatial</li><li>GeoPandas</li><li>Rasterio</li><li>Shapely</li>
     </ul>
   </section>
 </div>
@@ -81,48 +88,41 @@ My background in hydroinformatics gives me a strong foundation in scientific com
 
 # [Professional Experience](#professional-experience) {#professional-experience}
 
-## Senior Python Engineer
+## Senior Python Engineer (AI)
 **Razor**  
 **October 2025 – Present**
 
 Designing and developing an enterprise AI platform for intelligent search, document processing and data workflows within a distributed microservice architecture.
 
-Key responsibilities include:
+Selected achievements include:
 
-- Designing distributed Python microservices for enterprise AI workflows
-- Building production retrieval pipelines using embeddings, vector search and reranking
-- Designing PostgreSQL schemas and scalable data models for large document datasets
-- Developing asynchronous APIs and background processing services
-- Working across Python and C# services within a message-driven architecture
-- Developing and deploying containerised services within a Kubernetes-based platform
-- Contributing to system architecture, engineering standards and technical design
+- Designed and built a high-performance asynchronous Python messaging library for NATS, supporting pub-sub and request-reply patterns with automatic retries, resilience to failures and service restarts, distributed tracing and telemetry, sustaining over 5,000 messages/second per worker.
+- Architected and implemented a distributed document ingestion and retrieval platform capable of synchronising, processing and searching hundreds of thousands of documents using PostgreSQL, Python microservices and a C# orchestration engine.
+- Designed a three-tier progressive extraction pipeline combining lightweight CPU embedding models with richer semantic models to optimise ingestion throughput while maintaining high-quality AI retrieval.
+- Developed an AI-powered pipeline for extracting, cleaning and transforming unstructured Excel and CSV data into structured, queryable datasets for downstream AI agents and workflows.
+- Modernised the Python engineering stack by introducing fully typed codebases, `uv` package management, deterministic profiling, automated linting and continuous dependency vulnerability auditing.
 
 ---
 
-## Associate Director of Hydroinformatics
-**Jacobs**  
-**September 2025 – October 2025**
-
-Following promotion to Associate Director, provided technical leadership across hydroinformatics software development while continuing to support major national flood risk programmes.
-
----
-
-## Principal Hydroinformatics Developer
+## Principal Software Engineer (Hydroinformatics)
 **Jacobs**  
 **September 2023 – September 2025**
 
-Designed and led the delivery of several key backend components of the Environment Agency’s National Flood Risk Assessment (NaFRA2), one of England’s largest flood risk programmes. Developed cloud-native software used to assess flood risk across England.
+Designed and delivered core backend systems for the Environment Agency's National Flood Risk Assessment (NaFRA2), a pioneering cloud computing platform and the first of its kind globally.
 
-Highlights:
+Key achievements include:
 
-- Designed scalable Python services, PostgreSQL data models and geospatial processing workflows
-- Led software design, code reviews and technical mentoring across the development team
-- Continued to develop and maintain open-source Python tooling
-- Worked extensively with AWS infrastructure and large-scale scientific computing
+- Designed and developed a highly scalable probabilistic flood risk engine supporting deterministic, on-demand recalculation across hundreds of billions of data points through optimised vectorised numerical algorithms and massively parallel AWS Batch compute.
+- Architected and built a PostgreSQL-backed (Amazon Aurora) platform managing many terabytes of hydraulic simulation data across approximately 100,000 flood models, with versioning, metadata management and full auditability.
+- Developed distributed extraction and interpolation pipelines to generate rich flood risk information for any location in England under user-defined scenarios, using parallel AWS Batch workloads with comprehensive observability and metadata capture.
+- Partnered directly with the Environment Agency and other clients to turn complex technical challenges into deliverable software solutions, supporting business development and winning major projects including an automated flood model build and analysis platform for the Thames Estuary.
+- Led technical design, code reviews and mentoring across engineering teams, and established and delivered a technical training programme that upskilled 30–50 colleagues each month in data science and software development.
+
+Promoted to **Associate Director of Hydroinformatics** in September 2025, continuing hands-on technical leadership across major software programmes until October 2025.
 
 ---
 
-## Senior Hydroinformatics Developer
+## Senior Software Engineer (Hydroinformatics)
 **Jacobs**  
 **January 2021 – September 2023**
 
@@ -138,12 +138,8 @@ Designed and developed the core data platform for the Environment Agency’s pio
 **AECOM**  
 **August 2016 – December 2020**
 
-Specialised in hydraulic modelling, automation and geospatial software development.
-
-Highlights:
-
 - Developed Python automation tools for hydraulic model generation and analysis
-- Served as technical lead for major flood modelling projects
+- Served as technical lead for a flood modelling project, developing the scope and technical approach
 - Designed GIS workflows and scientific analysis tools
 - Delivered software and modelling solutions for the Environment Agency and local authorities
 
