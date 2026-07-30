@@ -48,16 +48,24 @@ a {
   justify-content: space-between;
   gap: 7mm;
   margin: 0 0 4mm;
-  padding: 4.5mm 3mm 8mm;
+  padding: 4.5mm 3mm;
   color: #ffffff;
   background: #17324d;
 }
 
 .print-header__identity {
+  display: grid;
+  grid-template-areas:
+    "name motif"
+    "tagline tagline";
+  grid-template-columns: max-content 38mm;
+  align-items: center;
+  column-gap: 4mm;
   min-width: 0;
 }
 
 .print-header__identity h1 {
+  grid-area: name;
   margin: 0;
   color: #ffffff;
   font-family: var(--font-display);
@@ -68,13 +76,14 @@ a {
 }
 
 .print-header__tagline {
+  grid-area: tagline;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5mm 1.2mm;
   margin: 1.7mm 0 0;
   color: #d7e5e6;
-  font-size: 9pt;
+  font-size: 9.5pt;
   font-weight: 600;
 }
 
@@ -83,9 +92,7 @@ a {
 }
 
 .print-header__confluence {
-  position: absolute;
-  bottom: 2.1mm;
-  left: 3mm;
+  grid-area: motif;
   display: block;
   width: 38mm;
   height: auto;
@@ -105,7 +112,7 @@ a {
   text-align: left;
 }
 
-.print-header__contact a {
+.print-header__contact .contact-link {
   min-width: 0;
   white-space: nowrap;
 }

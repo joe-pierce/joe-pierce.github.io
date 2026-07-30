@@ -192,6 +192,11 @@ a:focus-visible {
   text-decoration-color: #6fa6aa;
 }
 
+.contact-list .contact-link--static {
+  width: fit-content;
+  color: #f4f8f8;
+}
+
 .contact-link {
   display: inline-flex;
   align-items: center;

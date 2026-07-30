@@ -5,6 +5,7 @@ tagline: Senior Software Engineer | Python | Backend Platforms | AI & Data Syste
 email: joe_pierce_123@hotmail.com
 phone: 07795 594011
 linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
+location: Sheffield, UK
 ---
 
 <div class="cv-overview" markdown="1">

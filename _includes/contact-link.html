@@ -1,4 +1,8 @@
+{% if include.href %}
 <a class="contact-link" href="{{ include.href }}"{% if include.rel %} rel="{{ include.rel }}"{% endif %}>
+{% else %}
+<span class="contact-link contact-link--static">
+{% endif %}
   {% case include.kind %}
     {% when "email" %}
       <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -12,6 +16,15 @@
       <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path d="M6.5 9.5v8M6.5 6.2v.1M10.5 17.5v-8m0 3.6c.7-2.1 5.5-2.8 5.5 1.5v2.9" />
       </svg>
+    {% when "location" %}
+      <svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12Z" />
+        <circle cx="12" cy="9" r="2.5" />
+      </svg>
   {% endcase %}
   <span>{{ include.label }}</span>
+{% if include.href %}
 </a>
+{% else %}
+</span>
+{% endif %}
