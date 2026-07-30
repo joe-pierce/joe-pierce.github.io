@@ -15,9 +15,9 @@ linkedin: https://www.linkedin.com/in/joe-pierce-b78139100
 
 Senior Software Engineer with 10 years of professional experience delivering large-scale backend platforms, distributed systems and data-intensive software across AI, scientific computing and cloud infrastructure.
 
-Most recently I have specialised in designing enterprise AI platforms, building resilient backend services, intelligent search systems and high-performance data processing pipelines that operate at production scale.
+Most recently, I have specialised in designing enterprise AI platforms, building resilient backend services, intelligent search systems and high-performance data processing pipelines that operate at production scale.
 
-My background in hydroinformatics provides a strong foundation in large-scale analytical systems, where I helped deliver core software for the Environment Agency's National Flood Risk Assessment (NaFRA2), a pioneering cloud-native platform supporting one of England's largest environmental modelling programmes.
+My background in hydroinformatics provides a strong foundation in large-scale analytical systems; I helped deliver core software for the Environment Agency’s National Flood Risk Assessment (NaFRA2), a pioneering cloud-native platform supporting one of England’s largest environmental modelling programmes.
 
 </section>
 
@@ -38,7 +38,7 @@ My background in hydroinformatics provides a strong foundation in large-scale an
   <section class="skill-group">
     <h3>Backend Engineering</h3>
     <ul class="skill-tags">
-      <li>FastAPI</li><li>SQLAlchemy</li><li>REST APIs</li><li>Asynchronous programming</li><li>Distributed Systems</li><li>Message-driven Architecture (NATS Jetstream, RabbitMQ)</li>
+      <li>FastAPI</li><li>SQLAlchemy</li><li>REST APIs</li><li>Asynchronous Programming</li><li>Distributed Systems</li><li>Message-driven Architecture (NATS JetStream, RabbitMQ)</li>
     </ul>
   </section>
 
@@ -66,14 +66,14 @@ My background in hydroinformatics provides a strong foundation in large-scale an
   <section class="skill-group">
     <h3>Modern Software Tooling</h3>
     <ul class="skill-tags">
-      <li>Uv</li><li>Ruff</li><li>Ty</li><li>Pytest</li><li>Spec-driven Development</li><li>AI-assisted Development</li><li>MCP Servers</li><li>Linux/WSL</li>
+      <li>uv</li><li>Ruff</li><li>ty</li><li>pytest</li><li>Spec-driven Development</li><li>AI-assisted Development</li><li>MCP Servers</li><li>Linux/WSL</li>
     </ul>
   </section>
 
   <section class="skill-group">
     <h3>Scientific Computing</h3>
     <ul class="skill-tags">
-      <li>Scipy</li><li>Optimisation</li><li>Geospatial</li><li>GeoPandas</li><li>Rasterio</li><li>Shapely</li>
+      <li>SciPy</li><li>Optimisation</li><li>Geospatial</li><li>GeoPandas</li><li>Rasterio</li><li>Shapely</li>
     </ul>
   </section>
 </div>
@@ -108,17 +108,17 @@ Selected achievements include:
 **Jacobs**  
 **September 2023 – September 2025**
 
-Designed and delivered core backend systems for the Environment Agency's National Flood Risk Assessment (NaFRA2), a pioneering cloud computing platform and the first of its kind globally.
+Designed and delivered core backend systems for the Environment Agency’s National Flood Risk Assessment (NaFRA2), a pioneering cloud computing platform—the first of its kind globally.
 
 Key achievements include:
 
 - Designed and developed a highly scalable probabilistic flood risk engine supporting deterministic, on-demand recalculation across hundreds of billions of data points through optimised vectorised numerical algorithms and massively parallel AWS Batch compute.
-- Architected and built a PostgreSQL-backed (Amazon Aurora) platform managing many terabytes of hydraulic simulation data across approximately 100,000 flood models, with versioning, metadata management and full auditability.
+- Architected and built a PostgreSQL-backed platform on Amazon Aurora, managing many terabytes of hydraulic simulation data across approximately 100,000 flood models, with versioning, metadata management and full auditability.
 - Developed distributed extraction and interpolation pipelines to generate rich flood risk information for any location in England under user-defined scenarios, using parallel AWS Batch workloads with comprehensive observability and metadata capture.
 - Partnered directly with the Environment Agency and other clients to turn complex technical challenges into deliverable software solutions, supporting business development and winning major projects including an automated flood model build and analysis platform for the Thames Estuary.
 - Led technical design, code reviews and mentoring across engineering teams, and established and delivered a technical training programme that upskilled 30–50 colleagues each month in data science and software development.
 
-Promoted to **Associate Director of Hydroinformatics** in September 2025, continuing hands-on technical leadership across major software programmes until October 2025.
+Following promotion to **Associate Director of Hydroinformatics** in September 2025, I continued hands-on technical leadership across major software programmes until October 2025.
 
 ---
 
@@ -126,11 +126,9 @@ Promoted to **Associate Director of Hydroinformatics** in September 2025, contin
 **Jacobs**  
 **January 2021 – September 2023**
 
-Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend systems supporting NaFRA2.
-
-Conceived and led development of the open-source **Flood Modeller Python API**, securing internal funding and owning its architecture, implementation, testing, documentation, publishing and long-term support.
-
-Designed and developed the core data platform for the Environment Agency’s pioneering OxCam Arc investment optimisation study, ingesting and processing large-scale hydraulic modelling datasets to support adaptive optimisation of flood risk investment scenarios.
+- Developed software and data platforms for hydraulic modelling and flood risk analysis, including backend systems supporting NaFRA2.
+- Conceived the open-source **Flood Modeller Python API** and led its development, securing internal funding and owning its architecture, implementation, testing, documentation, publishing and long-term support.
+- Designed and developed the core data platform for the Environment Agency’s pioneering OxCam Arc investment optimisation study, ingesting and processing large-scale hydraulic modelling datasets to support adaptive optimisation of flood risk investment scenarios.
 
 ---
 
@@ -138,10 +136,10 @@ Designed and developed the core data platform for the Environment Agency’s pio
 **AECOM**  
 **August 2016 – December 2020**
 
-- Developed Python automation tools for hydraulic model generation and analysis
-- Served as technical lead for a flood modelling project, developing the scope and technical approach
-- Designed GIS workflows and scientific analysis tools
-- Delivered software and modelling solutions for the Environment Agency and local authorities
+- Developed Python automation tools for hydraulic model generation and analysis.
+- Served as technical lead for a flood modelling project, developing the scope and technical approach.
+- Designed GIS workflows and scientific analysis tools.
+- Delivered software and modelling solutions for the Environment Agency and local authorities.
 
 </section>
 
@@ -156,7 +154,7 @@ Designed and developed the core data platform for the Environment Agency’s pio
 **MEnv Environmental Science (First Class Honours)**  
 University of Leeds
 
-Completed third year at McMaster University, Canada.
+Completed my third year at McMaster University, Canada.
 
 </section>
 
